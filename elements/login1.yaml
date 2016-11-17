@@ -1,0 +1,11 @@
+login_User:
+  type: id
+  value: account
+
+login_Password:
+  type: name
+  value: password
+
+login_Submit:
+  type: xpath
+  value: "//button[@id='submit']"

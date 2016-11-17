@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" allow-return-values="true">
+    <!-- 运行脚本 -->
+    <test name="TestValue">
+        <classes>
+            <class name="TestNG_demo.TestNG_Demo_TestValue" />
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" allow-return-values="true">
+    <test name="test">
+        <classes>
+            <class name="TestNG_demo.TestNG_Demo" />
+            <class name="TestNG_demo.TestNG_Demo_Param"></class>
+        </classes>
+    </test>
+    
+    <test name="test2">
+        <classes>
+            <class name="TestNG_demo.TestNG_Demo_TestValue"></class>
+        </classes>
+    </test>
+</suite>
