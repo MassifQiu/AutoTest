@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DemoTest">
+    <parameter name="url" value="http://192.168.0.102:81/zentao/user-login-L3plbnRhby8=.html"/>
+    <parameter name="fileName" value="elements/login.yaml"/>
+
+    <test name="LoginTest">
+        <parameter name="userName" value="admin"/>
+        <parameter name="passWord" value="123456"/>
+        <classes>
+            <class name="DemoTest" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>

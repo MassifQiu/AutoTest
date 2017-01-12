@@ -4,7 +4,7 @@
     <!-- 运行脚本 -->
     <test name="TestValue">
         <classes>
-            <class name="TestNG_demo.TestNG_Demo_TestValue" />
+            <class name="Demo.TestNG_Demo_TestValue" />
         </classes>
     </test> <!-- Test -->
 

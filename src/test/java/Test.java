@@ -1,3 +1,5 @@
+import UIFramework.BrowserUtils;
+
 /**
  * Created by qiuwei on 2016/11/7.
  */

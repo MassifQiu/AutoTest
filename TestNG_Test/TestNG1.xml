@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG_test" allow-return-values="true">
+
+    <test name="test2">
+        <groups>
+            <run>
+                <include name="test1"/>
+                <include name="test2"/>
+                <exclude name="test3"/>
+            </run>
+            <dependencies>
+                <group name="test1" depends-on="test2"/>
+            </dependencies>
+        </groups>
+
+        <classes>
+            <class name="Demo.TestNG_Demo">
+                <methods>
+                    <include name="21234"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

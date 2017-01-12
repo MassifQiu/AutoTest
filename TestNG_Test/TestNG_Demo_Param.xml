@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="测试套件1" allow-return-values="true">
     <parameter name="name" value="qiuqiu"></parameter>
+
     <test name="测试用例1">
         <classes>
-            <class name="TestNG_demo.TestNG_Demo_Param"/>
+            <class name="Demo.TestNG_Demo_Param"/>
         </classes>
     </test>
 </suite>

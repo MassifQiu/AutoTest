@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTest"
+           tests="6"
+           failures="1"
+           errors="0"
+           skipped="5"
+           time="0.015">
+  <properties />
+            <testcase name="beforeTest" time="0.000" classname="DemoTest">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;url&apos; is required by BeforeMethod on method beforeTest but has not been marked @Optional or defined
+in /Users/qiuwei/IdeaProjects/AutoTest/TestNG_Test/BaiduTest.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by BeforeMethod on method beforeTest but has not been marked @Optional or defined
+in /Users/qiuwei/IdeaProjects/AutoTest/TestNG_Test/BaiduTest.xml
+  org.testng.internal.Parameters.createParameters(Parameters.java:199)
+  org.testng.internal.Parameters.createParameters(Parameters.java:443)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+  org.testng.TestNG.runSuites(TestNG.java:1133)
+  org.testng.TestNG.run(TestNG.java:1104)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:124)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="beforeTest" time="0.0" classname="DemoTest">
+          <skipped />
+    </testcase>
+            <testcase name="beforeTest" time="0.0" classname="DemoTest">
+          <skipped />
+    </testcase>
+            <testcase name="test" time="0.0" classname="DemoTest">
+          <skipped />
+    </testcase>
+            <testcase name="test" time="0.0" classname="DemoTest">
+          <skipped />
+    </testcase>
+            <testcase name="test" time="0.0" classname="DemoTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
